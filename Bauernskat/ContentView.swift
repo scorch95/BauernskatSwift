@@ -1,21 +1,12 @@
-//
-//  ContentView.swift
-//  Bauernskat
-//
-//  Created by Darwin Schlenk on 04.02.23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        HStack{
+            VStack{
+                }
+            }
         }
-        .padding()
     }
 }
 

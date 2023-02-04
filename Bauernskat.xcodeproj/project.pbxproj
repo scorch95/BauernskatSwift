@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45F1989F298F0D810069B4AB /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F1989E298F0D810069B4AB /* Cards.swift */; };
 		45F9F489298EF17D00E743B7 /* BauernskatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9F488298EF17D00E743B7 /* BauernskatApp.swift */; };
 		45F9F48B298EF17D00E743B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9F48A298EF17D00E743B7 /* ContentView.swift */; };
 		45F9F48D298EF17D00E743B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F9F48C298EF17D00E743B7 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45F1989E298F0D810069B4AB /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		45F9F485298EF17D00E743B7 /* Bauernskat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bauernskat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F9F488298EF17D00E743B7 /* BauernskatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BauernskatApp.swift; sourceTree = "<group>"; };
 		45F9F48A298EF17D00E743B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,9 +56,10 @@
 			children = (
 				45F9F488298EF17D00E743B7 /* BauernskatApp.swift */,
 				45F9F48A298EF17D00E743B7 /* ContentView.swift */,
+				45F1989E298F0D810069B4AB /* Cards.swift */,
+				45F9F48E298EF17D00E743B7 /* Preview Content */,
 				45F9F48C298EF17D00E743B7 /* Assets.xcassets */,
 				45F9F491298EF17D00E743B7 /* Bauernskat.entitlements */,
-				45F9F48E298EF17D00E743B7 /* Preview Content */,
 			);
 			path = Bauernskat;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F1989F298F0D810069B4AB /* Cards.swift in Sources */,
 				45F9F48B298EF17D00E743B7 /* ContentView.swift in Sources */,
 				45F9F489298EF17D00E743B7 /* BauernskatApp.swift in Sources */,
 			);
